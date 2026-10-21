@@ -7,6 +7,9 @@ with (project / "tasks.csv").open(newline="") as source:
     tasks = list(csv.DictReader(source))
 
 print("CAPSTONE TASK TRACKER")
+sprints = sorted({task["sprint"] for task in tasks if task.get("sprint")})
+if sprints:
+    print(f"Sprint: {', '.join(sprints)}")
 print(f"Total tasks: {len(tasks)}")
 status_counts = Counter(task["status"] for task in tasks)
 completed = status_counts["done"]
