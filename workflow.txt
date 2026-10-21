@@ -1,1 +1,1 @@
-Development policy: review changes before merging.
+Development policy: use a branch for each feature and review changes before merging.
