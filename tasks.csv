@@ -1,5 +1,5 @@
-task,status,priority
-Draft project requirements,done,high
-Implement a project feature,in_progress,high
-Write feature tests,todo,high
-Update project documentation,todo,medium
+task,status,priority,taiga_id,source_url
+Review the current hero quality-check setup,todo,high,80,https://tree.taiga.io/project/tkandala-capstone/task/80
+Update QC instructions and add the original photo,todo,high,81,https://tree.taiga.io/project/tkandala-capstone/us/79
+Test the updated quality checker,todo,high,82,https://tree.taiga.io/project/tkandala-capstone/us/79
+Document results and recommendations,todo,high,83,https://tree.taiga.io/project/tkandala-capstone/us/79
