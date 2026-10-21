@@ -1,1 +1,1 @@
-Development policy: record changes with Git.
+Development policy: review changes before merging.
