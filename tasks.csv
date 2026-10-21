@@ -1,0 +1,5 @@
+task,status,priority
+Draft project requirements,done,high
+Implement a project feature,in_progress,high
+Write feature tests,todo,high
+Update project documentation,todo,medium
